@@ -1,0 +1,10 @@
+Specifier	va_arg type	Helper
+%c	int	ft_putchar
+%s	char *	ft_putstr
+%p	void *	ft_putaddr
+%d	int	ft_putnbr
+%i	int	ft_putnbr
+%u	unsigned int	ft_putunbr
+%x	unsigned int	ft_puthex_lower
+%X	unsigned int	ft_puthex_upper
+%%	No argument	ft_putchar('%')
